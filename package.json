@@ -28,7 +28,8 @@
     "react": "^15.4.0"
   },
   "dependencies": {
-    "babel-runtime": "^6.22.0"
+    "babel-runtime": "^6.22.0",
+    "wix-style-react": "^1.1.4257"
   },
   "devDependencies": {
     "@storybook/react": "~3.1.0",
@@ -52,8 +53,14 @@
     "yoshi": "latest"
   },
   "babel": {
-    "presets": ["env", "react", "stage-3"],
-    "plugins": ["transform-runtime"]
+    "presets": [
+      "env",
+      "react",
+      "stage-3"
+    ],
+    "plugins": [
+      "transform-runtime"
+    ]
   },
   "eslintConfig": {
     "extends": "wix/react"
